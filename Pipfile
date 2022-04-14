@@ -5,8 +5,16 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+requests = "*"
+translators = "*"
+spacy = "*"
+scipy = "*"
+spacy-transformers = "*"
+numpy = "*"
+sklearn = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"
